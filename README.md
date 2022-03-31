@@ -3,7 +3,7 @@ This is my work on offensive meme classification. This work is published in an I
 
 ## Cite 
 
-Roshan Nayak, **B S Ullas Kannantha**, Kruthi S, C. Gururaj. (2022). **Multimodal Offensive Meme Classification using Transformers and BiLSTM**. International Journal of Engineering and Advanced Technology (Vol. 11, Issue 3, pp. 96–102) Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - BEIESP. https://doi.org/10.35940/ijeat.c3392.0211322
+**Roshan Nayak**, B S Ullas Kannantha, Kruthi S, C. Gururaj. (2022). **Multimodal Offensive Meme Classification using Transformers and BiLSTM**. International Journal of Engineering and Advanced Technology (Vol. 11, Issue 3, pp. 96–102) Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publication - BEIESP. https://doi.org/10.35940/ijeat.c3392.0211322
 
 * **PDF of paper** is attached: paper.pdf
 * **Find code at:** https://github.com/RosNayak/Offensive-Meme-Classification
