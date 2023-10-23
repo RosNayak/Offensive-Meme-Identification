@@ -5,6 +5,7 @@
 
 ### Data Preprocessing
 <img width="466" alt="Screenshot 2023-10-23 at 2 02 02 PM" src="https://github.com/RosNayak/Offensive-Meme-Identification/assets/45042726/60c7dddc-5b54-4bd3-83ac-20137f626f95">
+
 The dataset being used for the purpose of the analysis is a multi-modal dataset consisting of image and text pairs. The images had text embedded on them as they do not help in extracting the features from the image. Data augmentation techniques like Flip and Blur were applied to the image while training. We first converted the meme captions to lowercase, decontracted the words (eg. don't -> do not), removed special characters, and then converted the words to their base form using the lemmatization technique.
 
 ### Word embeddings
@@ -13,6 +14,7 @@ a second way, we have used DistilBert. DistilBert has an upper hand over some of
 
 ### Soft Voting
 <img width="297" alt="Screenshot 2023-10-23 at 2 05 23 PM" src="https://github.com/RosNayak/Offensive-Meme-Identification/assets/45042726/1507dd44-ce3f-4d24-8ca9-04cc64c66b4c">
+
 Since we have trained multiple models, ensembling them to predict the final output will generally work better. Hence, we have used soft voting as the ensembling technique. In this technique, we take the average of the probabilities of each class obtained from multiple models to decide on the final prediction. A class is then considered to be the predicted class if it has the highest average probability. This is better when compared with the hard voting method because it considers the confidence level of each model. In Fig. 4 thepredicted probabilities from the four models are passed on to the soft voting layer to make the final decision.
 
 ### Model Architecture
