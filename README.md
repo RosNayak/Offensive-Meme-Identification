@@ -1,6 +1,13 @@
 ## Abstract
 *Nowadays memes have become a way in which people express their ideas on social media. These memes can convey various views including offensive ones. Memes can be intended for a personal attack, homophobic abuse, racial abuse, attack on minority etc. The memes are implicit and multi-modal in nature. Here we analyze the meme by categorizing them as offensive or not offensive and this becomes a binary classification problem. We propose a novel offensive meme classification using the transformer-based image encoder, BiLSTM for text with mean pooling as text encoder and a Feed-Forward Network as a classification head. The SwinT + BiLSTM has performed better when compared to the ViT + BiLSTM across all the dimensions. The performance of the models has improved significantly when the contextual embeddings from DistilBert replace the custom embeddings. We have achieved the highest recall of 0.631 by combining outputs of four models using the soft voting technique*
 
+## Dataset
+<p align="center">
+<img width="336" alt="Screenshot 2023-10-23 at 2 12 01 PM" src="https://github.com/RosNayak/Offensive-Meme-Identification/assets/45042726/3f127812-f085-453d-a3db-a660a3455da5">
+</p>
+We use the Multimodal Meme Dataset (MultiOFF) for Identifying Offensive Content in Image and Text. Each type of data file has three columns. The name of the image with the file extension is given in the first column. In the second column meme text is in English and finally, the third column is for annotation (“offensive” or “non-offensive”). The data is quite imbalanced with more
+offensive data than non-offensive. The data is divided intotraining data constituting 60%, testing data constituting 20% and the remaining 20% is validation data
+
 ## Methodology
 
 ### Data Preprocessing
@@ -36,3 +43,6 @@ Since we have trained multiple models, ensembling them to predict the final outp
  
 
 ![image](https://user-images.githubusercontent.com/46472021/158046713-fa399068-f57f-4721-8c15-03b7c4ed78fc.png)
+
+## References
+* Shardul Suryawanshi, Bharathi Raja Chakravarthi, Mihael Arcan, and Paul Buitelaar, “Multimodal meme dataset (MultiOFF) for identifying offensive content in image and text,” European Language Resources Association (ELRA), May, 2020, pp. 32-41
