@@ -44,5 +44,9 @@ Since we have trained multiple models, ensembling them to predict the final outp
 
 ![image](https://user-images.githubusercontent.com/46472021/158046713-fa399068-f57f-4721-8c15-03b7c4ed78fc.png)
 
+## Future Work
+* Train on a larger dataset and more epochs.
+* Leverage the robustness of attention mechanism on processing text as well in place of LSTM.
+
 ## References
 * Shardul Suryawanshi, Bharathi Raja Chakravarthi, Mihael Arcan, and Paul Buitelaar, “Multimodal meme dataset (MultiOFF) for identifying offensive content in image and text,” European Language Resources Association (ELRA), May, 2020, pp. 32-41
